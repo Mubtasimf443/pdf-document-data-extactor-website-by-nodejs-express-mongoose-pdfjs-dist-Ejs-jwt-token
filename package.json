@@ -1,0 +1,36 @@
+{
+  "dependencies": {
+    "als-body-parser": "^1.0.0",
+    "bcryptjs": "^2.4.3",
+    "cookie-parser": "^1.4.6",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "ejs": "^3.1.10",
+    "express": "^4.18.1",
+    "express-fileupload": "^1.5.0",
+    "i": "^0.3.7",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.4.5",
+    "nodemailer": "^6.9.14",
+    "npm": "^10.8.1",
+    "pdf-export-images": "^1.0.9",
+    "pdf-parse": "^1.1.1",
+    "pdfjs-dist": "^1.10.97",
+    "pdfreader": "^3.0.2"
+  },
+  "type": "module",
+  "name": "Pdf to file json web app",
+  "version": "1.0.0",
+  "description": "Allah is with me and he is enough ffor me",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "pdf": "nodemon pdfread.js",
+    "serv": "nodemon index.js"
+  },
+  "author": "Mubtasim Fuad ",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^3.1.4"
+  }
+}
