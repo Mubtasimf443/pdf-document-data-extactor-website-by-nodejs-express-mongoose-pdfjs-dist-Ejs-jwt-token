@@ -1,0 +1,212 @@
+/* ইনশাআল্লাহ হবে بِسْمِ اللهِ الرَّحْمٰنِ الرَّحِيْمِ  ﷺ */
+
+body {
+  height: 780px;
+ 
+}
+  * {
+    background: #ecf5e9;
+    padding: 0px 0px 0px 0px;
+    margin:0px 0% 0% 0%;
+    font-size: 17px;
+    font-family: "Anek Bangla", sans-serif;
+    font-optical-sizing: auto;
+
+    font-style: normal;
+    font-variation-settings:
+      "wdth" 100;
+
+  }
+  
+    /*  font-family: "Open Sans", sans-serif;*/
+ .column{
+   display: flex;
+   flex-direction: row;
+   padding: 0px 0px 0px 0px;
+   margin: 0px 0px 0px 0px;
+ }
+
+/*Style of Header Section */ 
+header{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding-top: 14px;
+  margin: none;
+  padding-bottom: 14px;
+  
+  justify-content: center;
+}
+
+nav > div {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items:center;
+}
+nav{
+  width: 96.3%;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  padding-top: 7px;
+  padding-bottom: 7px;
+  align-items: center;
+  justify-content:start;
+ box-shadow: 0px 0px 10px #018a2655;
+  background: #fff;
+  border-radius: 7px;
+}
+nav div,p,b,button,i,image {
+  background: #fff;
+  border: none;
+}
+#nav-div-1{
+  width:7.5%;
+}
+
+#nav-div-2{
+  width: 65%;
+ font-family: "Open Sans", sans-serif;
+}
+
+#nav-div-3{
+  width: 27.5%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 14px;
+  
+}
+
+#balance-span{
+  color: #fff;
+  background:#299903;
+ font-size: auto;
+padding-left: 13px;
+padding-right: 13px;
+padding-bottom: 7px;
+padding-top: 7px;
+ border-radius: 7px;
+ box-shadow: 3px 3px 3px #216e0720;
+ 
+}
+
+
+nav > div > button > img {
+ width: 36px;
+ height: 36px;
+ border-radius: 100%;
+}
+
+/*Header Completed */
+
+  
+/* Login Form Section*/ 
+
+#loginSection{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-top: 26px;
+}
+#loginBox{
+  width: 450px;
+  height: 550px;
+  background: #fff;
+  padding: 0px 30px 0px 30px ;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  border-radius: 13px;
+  
+}
+#loginBox div, form, input, image,label, img, a, button, span, div{
+  background: white;
+font-size: 22px;
+}
+
+#loginBox a {
+ text-decoration: none;
+}
+.passInput,.emailInput{
+border: 1.3px solid green;
+border-top: 0px;
+border-left: 0px;
+border-right: 0px;
+}
+#loginBox-div{
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+#loginBox-image {
+  height: 140px ; 
+  width: 140px;
+  align-self: center;
+}
+
+#loginBox-div > p {
+  font-size: 28px;
+  font-weight: 900px;
+  font-family: Arial, Helvetica, sans-serif;
+  }
+
+.inp-div{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 80px;
+  
+}
+
+.inp-div input{
+  padding-top: 5px;
+}
+.inp-div > input:focus {
+  border: 2.2px solid lime;
+  border-top: 0px;
+  border-left: 0px;
+  border-right: 0px;
+ background: whitesmoke;
+ outline: none;
+}
+#login-btn {
+  width:33%;
+  color: #fff;
+  font-size: 22px;
+  background: limegreen;
+  padding: 7px 15px 7px 14px ;
+  margin-top: 7px;
+  margin-bottom: 7px;
+  border-radius: 7px;
+}
+
+#login-btn-div > a {
+  color:green;
+    font-family: "Open Sans", sans-serif;
+  margin-left: 20%;
+}
+
+#log-box-reg-btn {
+  font-family: "Open Sans", sans-serif;
+color: darkgreen;
+font-weight: 900px;
+font-size: 23px;
+}
+/*Login Form Section completeed*/ 
+
+
+
+
+
+
+
+
+
+
+
+

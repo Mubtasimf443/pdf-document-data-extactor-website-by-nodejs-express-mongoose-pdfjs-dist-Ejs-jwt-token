@@ -1,0 +1,147 @@
+/* بِسْمِ اللهِ الرَّحْمٰنِ الرَّحِيْمِ    */
+/*  إِ*/
+/*اللَّهُمَّ صَلِّ عَلَى مُحَمَّدٍ، وَعَلَى آلِ مُحَمَّدٍ، كَمَا صَلَّيْتَ عَلَى إِبْرَاهِيمَ وَعَلَى آلِ إِبْرَاهِيمَ، إِنَّكَ حَمِيدٌ مَجِيدٌ  */
+/* I believe in Allah and he is enough for me */
+
+
+
+*{
+    padding: 0px ; margin: 0px;
+  }
+  body{
+      background: #EEF4EC;
+      font-family: "Poppins", sans-serif;
+      font-weight: 500px;
+    }
+    
+   .container{
+  width:100%;
+  background:#EEF4EC;
+  display: flex;flex-direction: row;
+  justify-content: center;
+  align-items: start;
+  height:41rem ; 
+  padding-top: 2em ;
+   }
+  .profile{
+    height:28em;
+    background: #003019;
+    width:25em ;
+    display: flex ;
+    padding-top:0.87em;
+    padding-left: 1.6em ;
+    padding-right: 1.6em;
+    flex-direction: column;
+    border-radius: 1em ;
+    box-shadow: 0em 0em 0.5em #00000036;
+    overflow: hidden;
+  }
+  .profile > div{
+    background: #003019 ;
+  }
+  
+  
+  
+  .first_icon_profile{
+    display: flex ; flex-direction: row;
+    justify-content: start;
+    align-items: center;
+    column-gap: 21.6em;
+    
+  }
+  
+  
+  .first_icon_profile > i{
+    font-size: 18.5px;
+    color: #fff ;
+  }
+  
+  
+  
+  
+  .profile-box-image{
+    display: flex ;
+    flex-direction: column ;
+    align-items :center;
+    width:100%;
+    padding-top: 1.2em ; 
+    padding-bottom: 0.6em;
+    background: #003019;
+  }
+  
+  .profile-box-image > i{
+   color: #fff;
+  }
+  .profile-box{
+    display: flex ; 
+    flex-direction: row ;
+    justify-content: center;
+    padding-top: 9px;
+    width:100%;
+    column-gap: 0.7em ;
+    background: #003019;
+   
+  }
+  .profile-box > i + p{
+    background: #003019;
+    color: white;
+    font-size: 19px ;
+    
+  }
+  
+  .profile-box > i {
+    font-size: 19px;
+    color: white;
+  }
+  
+  .profile_name{
+    text-align: center;
+    padding-top:0.4em;
+    font-size: 23px ;
+    color: white;
+    font-weight: 900px;
+    font-family: Helvetica , sans-serif ;
+  }
+  
+  
+  
+  .icon-box {
+    display: flex ; 
+    flex-direction: row ; 
+    justify-content: center ; 
+    align-items: center;
+    min-height: 20px ;
+    column-gap: 1.2em ;
+    padding-top: 0.4em;
+    background: #003019;
+    padding: 9px 0px 9px 0px;
+  }
+  
+  .icon-box > i {
+    font-size:2.4em ;
+    color: #fff;
+  }
+  
+  i{
+    color: #fff
+  }
+  
+  
+  .profile >.end_box{
+    padding-top: 0.9em;
+    height:8em ;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+    
+  }
+  .profile >.end_box > button {
+    font-size: 1.2em;
+    color: #fff;
+    background:  transparent;
+    border: 0.08em solid #fff;
+    border-radius: 0.6em;
+    padding: 0.6em 1em 0.6em 1em ;
+    
+  }

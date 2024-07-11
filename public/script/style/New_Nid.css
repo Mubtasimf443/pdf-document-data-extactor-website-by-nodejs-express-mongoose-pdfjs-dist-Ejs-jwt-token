@@ -1,0 +1,220 @@
+/* ইনশাআল্লাহ  بِسْمِ اللهِ الرَّحْمٰنِ الرَّحِيْمِ  */
+
+*{
+  font-family: "Tiro Bangla", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+
+
+body{
+  background: whitesmoke;
+}
+.column{
+  display: flex;
+  flex-direction: column;
+  
+}
+
+
+
+/* main Section  Started */
+main{
+  display: flex;
+  flex-direction: column;
+  padding: 30px 15px 30px 15px;
+}
+
+
+#New-Nid{
+  background: #fff;
+  max-height: 939px;
+  box-sizing: border-box;
+  box-shadow:0px 0px 6px #018a2655;
+  border-radius:16px;
+  display: flex;
+  flex-direction: column;
+}
+
+#upload-div{
+ min-height: 14rem ;
+ padding-top: 38px;
+ padding-bottom: 28px;
+ display: flex;
+ flex-direction: row;
+ justify-content: center;
+ align-items: center;
+ 
+ width: 100%;
+ 
+ 
+}
+
+
+#upload-div > label{
+  box-sizing: border-box;
+  border-color:#03A94F;
+  width: 37%;
+  height: 11.6rem;
+  border-style: dashed;
+  border-radius : 14px;
+  display :flex;
+  
+  flex-direction: column;
+ justify-content: center;
+ align-items: center;
+  padding: 20px 7px 7px 7px;
+
+}
+
+#upload-div> label> i{
+  color: #03A94F;
+  margin-bottom:0px;
+  font-size: 45px;
+}
+
+
+
+
+#upload-div > label > p{
+  font-size :14px;
+  background: #fff;
+  text-align: center;
+}
+
+
+#upload-btn{
+  background: #0368309c;
+  position:absolute ;
+  top: 12.6rem;
+  right: 5.7rem;
+  color: #fff;
+  padding: 8px 23px 8px 23px;
+  font-size: 23px;
+  border-radius: 7px;
+ cursor: wait;
+}
+
+/*Row Information Section*/
+.row-info{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items:start;
+  max-height: 450px;
+}
+
+.row-info >.column{
+  width: 50%;
+  min-height: 470px;
+  box-sizing: border-box;
+  padding: 0px 0px 0px 0px;
+  justify-content:start;
+  row-gap: 8.5px;
+}
+
+
+.row-info >.column >.file-input-box{
+  height: 60px;
+  display: flex;
+  
+  flex-direction: row;
+  justify-content:left;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  align-items :center;
+}
+
+
+.row-info >.column >.file-input-box > span >.file-label-box{
+  display: flex ;
+  flex-direction: row;
+  border: 2.3px solid #00000042;
+  min-height: 30px;
+  width: 100%;
+  margin-top: 3px;
+  border-radius: 5.5px;
+}
+.row-info >.column >.file-input-box > span >.file-label-box> label{
+  
+height: inherit;
+min-width: 45%;
+color: #000000A1;
+display: flex;
+flex-direction: row;
+align-items :center;
+padding-left: 9px;
+border-right: 2.3px dashed #00000042;
+box-sizing: border-box;
+}
+
+.row-info >.column >.input-box{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  align-content: start;
+}
+
+.row-info > .column > .input-box > input{
+  width: 91.5%;
+  height: 30px;
+  border: 2.3px solid #00000042;
+  border-radius: 6px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding-left: 13px;
+  font-size: 15.5px;
+}
+.row-info > .column > .input-box > label{
+  color: #0000009E;
+  padding-left: 10px;
+  font-size: 17px;
+}
+
+
+.column-info{
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: start;
+  margin-top: -22px;
+  padding: 10px 33px 10px 33px;
+  
+}
+
+.column-info > input {
+  width: 100%;
+  box-sizing: border-box;
+  border-radius:7px;
+  border: 2.3px solid #00000042;
+  height: 60px;
+}
+.column-info > label {
+  padding-left: 14px;
+  color: #0000009E;
+}
+
+
+
+.download-div {
+  width: 100%;
+  padding: 9px 33px 40px 33px;
+}
+
+
+.download-div > button  {
+  width: 93.2%;
+  height: 50px;
+  color: #fff;
+  font-size: 23px;
+  background: linear-gradient(#1F7F24, #0ACE14 );
+  border-radius :7px;
+}
+
+
+
+

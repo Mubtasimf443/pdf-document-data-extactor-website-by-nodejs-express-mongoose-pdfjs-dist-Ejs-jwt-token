@@ -1,0 +1,164 @@
+/* بِسْمِ اللهِ الرَّحْمٰنِ الرَّحِيْمِ    */
+/*  إِ*/
+/*اللَّهُمَّ صَلِّ عَلَى مُحَمَّدٍ، وَعَلَى آلِ مُحَمَّدٍ، كَمَا صَلَّيْتَ عَلَى إِبْرَاهِيمَ وَعَلَى آلِ إِبْرَاهِيمَ، إِنَّكَ حَمِيدٌ مَجِيدٌ  */
+/* I believe in Allah and he is enough for me */
+
+
+
+*{
+  margin:0px;
+
+  padding: 0px;
+
+  font-family: "Anek Bangla", sans-serif;
+  font-optical-sizing: auto;
+ 
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+
+
+.row{
+  display: flex;
+  flex-direction: row;
+}
+
+.column{
+  display: flex;
+  flex-direction: column;
+}
+body{
+  background: #EFFBF2;
+}
+
+
+
+section{
+ width: 100%;
+ display: flex;
+ flex-direction: row;
+ justify-content: center;
+ align-items: center;
+ padding-left: 20px;
+ padding-right: 20px;
+ padding-top: 7px;
+}
+
+
+.new-nibondon-div{
+ background: #fff;
+ height: 1000px;
+ min-width: 97%;
+ border-radius :12px;
+ padding: 20px 15px 20px 30px;
+ 
+}
+
+
+.new-nibondon-div > div{
+  justify-content: center;
+  align-items: center;
+}
+div[id="1st-div"] > .input-box{
+width: 50%;
+}
+
+
+div[id="1st-div"] > .input-box > input{
+  width:90%;
+}
+
+.new-nibondon-div > .row{
+  column-gap: 0px;
+}
+
+
+div[id="3rd-div"] > div{
+  background:white;
+  width: 50%;
+  height: 770px;
+}
+
+div[id="3rd-div"] > div > .input-box{
+  width: 100%;
+  background: #ffffff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 150px;
+}
+.input-box input {
+  width: 90%;
+  border:2.3px solid #00000040;
+  border-radius: 5px;
+  height: 40px;
+  color: #00000057;
+  font-style: none;
+  font-size: 14.5px;
+  padding-left: 9px;
+  
+  
+}
+
+.input-box > label{
+  font-size:15px;
+  color: #0000008F;
+  padding-bottom: 4px;
+  padding-left: 9px;
+}
+
+
+.input-box > input:focus {
+ border-color: #000000A6;
+ font-size: 17px;
+ color: #000000;
+ outline: none;
+ padding-top:2px;
+ padding-bottom:2px;
+ width: 90%;
+ box-sizing:border-box;
+ box-shadow: 0px 0px 3px #00000030;
+}
+
+
+div[id="3rd-div"] {
+  justify-content:center;
+  align-items: center;
+}
+
+
+
+
+.btn_div{
+ display: flex;
+ flex-direction: row;
+ flex-wrap: wrap;
+ padding: 0px 0px 0px 0px;
+ margin: 0px 0px 0px 0px;
+ height: 60px;
+ 
+}
+
+
+.btn_div > button {
+  
+  width: 96%;
+ min-height: 37px;
+  background: linear-gradient(#03BB29, #039121);
+  font-size: 22.4px;
+  color: #fff;
+  margin: 20px 0px 0px -30px;
+  font-weight: 700;
+  font-family: "Open Sans", sans-serif;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+
+.long_input{
+  height: 30px;
+}
+
+
+

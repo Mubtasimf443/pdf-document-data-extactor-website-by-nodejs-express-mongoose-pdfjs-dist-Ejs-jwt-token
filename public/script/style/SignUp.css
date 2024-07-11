@@ -1,0 +1,206 @@
+ /* بِسْمِ اللهِ الرَّحْمٰنِ الرَّحِيْمِ    */
+/*  إِ*/
+/*اللَّهُمَّ صَلِّ عَلَى مُحَمَّدٍ، وَعَلَى آلِ مُحَمَّدٍ، كَمَا صَلَّيْتَ عَلَى إِبْرَاهِيمَ وَعَلَى آلِ إِبْرَاهِيمَ، إِنَّكَ حَمِيدٌ مَجِيدٌ  */
+/* I believe in Allah and he is enough for me */
+
+ 
+ * {
+    background: #ecf5e9;
+    padding: 0px 0px 0px 0px;
+    margin:0px 0% 0% 0%;
+    font-size: 17px;
+    font-family: "Anek Bangla", sans-serif;
+  font-optical-sizing: auto;
+ 
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+    /*  font-family: "Open Sans", sans-serif;*/
+  }
+main{
+  padding-bottom: 35px;
+    padding-top: 35px;
+  }
+.row{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding: 0px;
+  margin: 0px;
+}
+ .column{
+   display: flex;
+   flex-direction: column;
+   padding: 0px 0px 0px 0px;
+   margin: 0px 0px 0px 0px;
+ }
+
+/*Style of Header Section */ 
+header{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding-top: 14px;
+  margin: none;
+  padding-bottom: 14px;
+  
+  justify-content: center;
+}
+
+nav > div {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items:center;
+}
+nav{
+  width: 96.3%;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  padding-top: 7px;
+  padding-bottom: 7px;
+  align-items: center;
+  justify-content:start;
+ box-shadow: 0px 0px 10px #018a2655;
+  background: #fff;
+  border-radius: 7px;
+}
+nav div,p,b,button,i,image {
+  background: #fff;
+  border: none;
+}
+#nav-div-1{
+  width:7.5%;
+}
+
+#nav-div-2{
+  width: 65%;
+ font-family: "Open Sans", sans-serif;
+}
+
+#nav-div-3{
+  width: 27.5%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 14px;
+  
+}
+
+#balance-span{
+  color: #fff;
+  background:#299903;
+ font-size: auto;
+padding-left: 13px;
+padding-right: 13px;
+padding-bottom: 7px;
+padding-top: 7px;
+ border-radius: 7px;
+ box-shadow: 3px 3px 3px #216e0720;
+ 
+}
+
+
+nav > div > button > img {
+ width: 36px;
+ height: 36px;
+ border-radius: 100%;
+}
+
+/*Header Completed */
+
+
+
+
+/* Form Section Start*/
+
+#register{
+ display: flex;
+ flex-direction: row;
+ justify-content: center;
+ align-items: center;
+ width: 100%;
+ flex-wrap: wrap;
+}
+
+#Register-Form{
+  width: 430px;
+  height: 830px;
+  overflow: hidden;
+  background: #fff;
+  padding: 0px 30px 0px 30px ;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  border-radius: 13px;
+ box-shadow: 0px 0px 11px 0.1px darkgreen;
+  
+}
+
+#Register-Form div, form,b, input, image,label, img, a,button, span, div {
+  background: #fff;
+  padding: 0px 0px 0px 0px;
+  margin: 0px 0px 0px 0px;
+  font-size: 22px;
+}
+
+#SignUp-div {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+#SignUp-image {
+  height: 140px;
+  width: 140px;
+  align-self: center;
+}
+
+#SignUp-div>p {
+  font-size: 28px;
+  font-weight: 900px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+label{
+  margin-top: 12px;
+  margin-bottom: 5px;
+}
+
+.form-input{
+  border: none;
+  border-bottom: 2px solid green;
+}
+
+.form-input:focus{
+  outline: none;
+  border-bottom: 2px solid limegreen;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 700px;
+}
+
+.sign-up-btn{
+  width: 100%;
+  background: darkgreen;
+  color: #fff;
+  padding-top: 10px;
+  margin-top: 12px;
+  padding-bottom: 10px;
+  margin-bottom: 8px;
+}
+
+
+.login-link-p{
+  font-size: 22px;
+}
+
+.login-link-a{
+  text-decoration: none;
+  color: green;
+  font-size: 22px;
+  font-family: "Open Sans", sans-serif;
+}
+/*Form Section Completed*/
